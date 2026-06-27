@@ -35,7 +35,7 @@ function FormData() {
 
   return (
     <div>
-        <h2>Today's Mood</h2>
+      <h2>Today's Mood</h2>
       <form onSubmit={saveMood}>
         <label>Mood: </label>
         <select value={mood} onChange={handleMood}>
