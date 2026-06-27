@@ -1,6 +1,7 @@
 
-import './App.css'
+import FormData from '../components/FormData';
 import { useEffect, useState } from 'react'
+import './App.css'
 
 function App() {
   const [message, setMessage] = useState("");
@@ -22,7 +23,7 @@ function App() {
     <>
       <h1>Mood Tracker App</h1>
       <p>{message}</p>
-      
+      <FormData />
     </>
   )
 }
